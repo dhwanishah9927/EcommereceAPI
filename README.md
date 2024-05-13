@@ -23,13 +23,13 @@ It enables them to add new products, check existing products' inventory, remove 
 
 # Setup
 
-    Clone the repository:
+Clone the repository:
 
-    git clone https://github.com/dhwanishah9927/EcommereceAPI.git 
+      git clone https://github.com/dhwanishah9927/EcommereceAPI.git 
 
-    Install dependencies:
+Install dependencies:
 
-    npm install
+      npm install
 
    After cloning, and installing dependencies serve the app using "node index". 
    
@@ -142,7 +142,6 @@ Ecommerce-API
     |--->routes------->productRoutes.js
     |
     |
-    |-->.gitignore
     |--> index.js
     |--> package-lock.json
     |-->package.json
