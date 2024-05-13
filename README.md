@@ -33,7 +33,7 @@ Install dependencies:
 
    After cloning, and installing dependencies serve the app using "node index". 
    
-   The API endpoints are provided from Postman as below: http://localhost:4000
+   The API endpoints are provided from Postman as below: https://ecommereceapi.onrender.com
 
 # API ENDPOINTS
 
@@ -43,7 +43,7 @@ Install dependencies:
 
    /products/create
 
-   http://localhost:4000/products/create
+   https://ecommereceapi.onrender.com/products/create
 
    Response:
 
@@ -63,7 +63,7 @@ Install dependencies:
    
    /products
 
-   http://localhost:4000/products 
+   https://ecommereceapi.onrender.com/products 
 
    Response:
 
@@ -90,7 +90,7 @@ Install dependencies:
   
    /products/:id
 
-   http://localhost:4000/products/6642401999e07fd561e649bf
+   https://ecommereceapi.onrender.com/products/6642401999e07fd561e649bf
 
    Response:
 
@@ -111,7 +111,7 @@ Install dependencies:
    
    /products/:id/update_quantity?number=100
 
-   http://localhost:4000/products/66427b3169cf390056a2e455/update_quantity?number=99
+   https://ecommereceapi.onrender.com/products/66427b3169cf390056a2e455/update_quantity?number=99
 
    Response:
 
