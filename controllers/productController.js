@@ -121,7 +121,7 @@ module.exports.updateQuantity = async function(req, res) {
             });
 
         // Updating product quantity
-        product.quantity += update_quantity;
+        product.quantity = product.quantity + update_quantity;
         let updatedProduct = await product.save();
 
         // Responding with success message and updated product data
