@@ -65,8 +65,6 @@ module.exports.getproductsData = async function(req, res) {
 // Function to delete a product by ID
 module.exports.deleteProduct = async function(req, res) {
     try {
-        // Extracting product ID from request parameters
-        //const id = req.params.id;
 
         // Finding product by ID
         let product = await Product.findById(req.params.id);
